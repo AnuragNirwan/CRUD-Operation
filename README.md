@@ -67,3 +67,14 @@ To address this problem, you have been hired as a software developer for a Softw
 **2.** The product_details folder contains JSON files named after each product's SKU (e.g., details_AISJDKFJW93NJ.json, details_DJKFIEI432FIE.json). These JSON files contain detailed information about each product, such as its name, brand, model, specifications, price, and availability. For example, take a look at the below screenshot of the JSON file details_AISJDKFJW93NJ.json. <br>
 
 **3.** The product_description folder contains TXT files named after each product's SKU (e.g., description_AISJDKFJW93NJ.txt, description_DJKFIEI432FIE.txt). These TXT files contain descriptions of each product. For example, take a look at the below screenshot of the TXT file description_AISJDKFJW93NJ.txt. <br>
+
+
+### TASK
+Q1: Your first task is to set up the environment for this project by loading the required packages and modules. <br>
+You will achieve all of this by completing the following sub-task: <br>
+
+Write code to import the following packages: <br>
+For handling raw data files: os <br>
+For working with JSON files: json <br>
+For working with CSV files: csv <br>
+For pretty-printing Python data structures: pprint <br>
