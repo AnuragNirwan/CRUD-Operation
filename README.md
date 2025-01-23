@@ -139,4 +139,4 @@ The code should help the admin to accomplish the following tasks:<br>
 **Q7: Suppose Acer discontinues the production of the Acer Aspire 3 laptop due to the release of its successor, the Acer Aspire 4.  The admin wants to remove all information related to the Acer Aspire 3. In this task, you will implement functionality to let the admin delete sales data, product details, and product description.** <br>
 
 The code should help the admin to accomplish the following task:<br>
-1.Use a function named delete() to delete sales data, product details, and product descriptions for Acer Aspire 3 whose product SKU is TYS56KFJW93NJ at once.
+1. Use a function named delete() to delete sales data, product details, and product descriptions for Acer Aspire 3 whose product SKU is TYS56KFJW93NJ at once.
