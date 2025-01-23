@@ -54,3 +54,16 @@ The crud() function serves as the project's core, seamlessly coordinating all CR
 **4. Centralized Management:** The crud() function simplifies interaction with the data system. <br>
 
 By implementing this Python-based CRUD system, e-commerce businesses can unlock new levels of operational excellence, ensuring their product information is well-managed, accurate, and readily accessible. This approach not only optimizes current operations but also positions the business for future scalability and success.
+
+## Problem Statement <br>
+In the dynamic landscape of e-commerce, efficient management of product information is essential for businesses to thrive. However, organizing and updating vast arrays of product details, sales data, and product descriptions can be a daunting task without the right tools in place. The absence of a robust system for managing product information can lead to inconsistencies, errors, and inefficiencies in operations.<br>
+
+To address this problem, you have been hired as a software developer for a Software company that builds various technologies for e-commerce platforms. Your job is to utilize your programming knowledge to automate some of the tasks that occur in these e-commerce platforms. Specifically, your role involves implementing functionalities for seamlessly adding, reading, updating, and deleting product details, sales data, and product descriptions. <br>
+
+## Understanding the Data <br>
+
+**1.** You have one main folder called main_folder containing one CSV file and 2 subfolders called product_details and product_description. The sales_data.csv contains sales data for various products over 14 days. Each row represents a unique product identified by its Product_SKU, and each column represents the number of sales for that product on a specific day (Day1 to Day14). The values in the cells indicate the number of units sold for each product on the corresponding day. <br>
+
+**2.** The product_details folder contains JSON files named after each product's SKU (e.g., details_AISJDKFJW93NJ.json, details_DJKFIEI432FIE.json). These JSON files contain detailed information about each product, such as its name, brand, model, specifications, price, and availability. For example, take a look at the below screenshot of the JSON file details_AISJDKFJW93NJ.json. <br>
+
+**3.** The product_description folder contains TXT files named after each product's SKU (e.g., description_AISJDKFJW93NJ.txt, description_DJKFIEI432FIE.txt). These TXT files contain descriptions of each product. For example, take a look at the below screenshot of the TXT file description_AISJDKFJW93NJ.txt. <br>
