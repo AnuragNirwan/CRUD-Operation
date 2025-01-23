@@ -1,4 +1,4 @@
-### Introduction <br>
+## Introduction <br>
 Efficient and accurate management of product information is vital for the success of e-commerce businesses. Reliable product data not only facilitates informed decision-making but also drives effective marketing strategies. Traditional methods of managing product data, such as manual entry and maintenance, are often cumbersome and error-prone. These inefficiencies can lead to data inconsistencies, operational delays, and lost business opportunities. <br>
 
 To address these challenges, leveraging Python programming offers a robust solution. Python's capabilities allow for the development of automated systems that handle core operations such as adding, retrieving, updating, and deleting product information. By automating these CRUD (Create, Retrieve, Update, and Delete) operations, businesses can improve data accuracy, streamline workflows, and boost overall efficiency. <br>
@@ -20,28 +20,28 @@ In this project, Python is used to implement a customized version of CRUD operat
 ### 1. Create Operation <br>
 The create() function orchestrates data entry tasks through the following sub-functions: <br>
 
-add_sales_data(): Records sales data such as transactions or revenue. <br>
-add_product_details(): Stores essential product information (e.g., name, SKU, price). <br>
-add_product_descriptions(): Captures descriptive details like features or specifications. <br>
+**add_sales_data():** Records sales data such as transactions or revenue. <br>
+**add_product_details():** Stores essential product information (e.g., name, SKU, price). <br>
+**add_product_descriptions():** Captures descriptive details like features or specifications. <br>
 
 ### 2. Read Operation <br>
 The read() function retrieves and displays data using these sub-functions: <br>
 
-display_sales_data(): Presents sales-related insights or records. <br>
-display_product_details(): Outputs key product details for analysis or review. <br>
-display_product_descriptions(): Displays detailed product descriptions for marketing or customer reference. <br>
+**display_sales_data():** Presents sales-related insights or records. <br>
+**display_product_details():** Outputs key product details for analysis or review. <br>
+**display_product_descriptions():** Displays detailed product descriptions for marketing or customer reference. <br>
 
 
 ### 3. Update Operation <br>
 The update() function allows modifications to existing data via: <br>
 
-update_sales_data(): Updates sales records, such as adjustments to revenue or transactions.<br>
-update_product_details(): Modifies product attributes like pricing or availability. <br>
-update_product_descriptions(): Refines or adds details to product descriptions. <br>
+**update_sales_data():** Updates sales records, such as adjustments to revenue or transactions.<br>
+**update_product_details():** Modifies product attributes like pricing or availability. <br>
+**update_product_descriptions():** Refines or adds details to product descriptions. <br>
 
 
 ### 4. Delete Operation <br>
-The delete() function manages data removal processes to keep the system organized and relevant. It ensures that obsolete or unnecessary records are efficiently removed. <br>
+**The delete():** function manages data removal processes to keep the system organized and relevant. It ensures that obsolete or unnecessary records are efficiently removed. <br>
 
 ## 5. Central CRUD Function <br>
 The crud() function serves as the project's core, seamlessly coordinating all CRUD operations. This master function provides a unified interface for executing Create, Read, Update, and Delete tasks, making it user-friendly and highly efficient.
