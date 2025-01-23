@@ -85,9 +85,7 @@ We recommend that you either use Jupyter Notebook or Google Colab to build and e
 1. In case you are using Google Colab, <br>
 - import drive from google.colab and mount your Google Drive or <br>
 - import files from google.colab. <br>
-
 2. In case you are using Jupyter Notebook, please make sure that your files and folders are all in the right place. <br>
-
 3. Use a function named load_data() to read data from the sales_data.csv file, JSON files in the product_details folder, and TXT files in the product_description folder and store them in three dictionaries called sales_data, product_details and product_desctiptions. <br>
 
 **Q3: Next, you will explore the loaded data by displaying its content. This includes displaying sales data, product details, and product description of products using their product SKU.** <br>
