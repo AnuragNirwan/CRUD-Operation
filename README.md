@@ -1,6 +1,6 @@
 # CRUD-Operation
 
-### Introduction### <br>
+### Introduction <br>
 Efficient and accurate management of product information is vital for the success of e-commerce businesses. Reliable product data not only facilitates informed decision-making but also drives effective marketing strategies. Traditional methods of managing product data, such as manual entry and maintenance, are often cumbersome and error-prone. These inefficiencies can lead to data inconsistencies, operational delays, and lost business opportunities.
 
 To address these challenges, leveraging Python programming offers a robust solution. Python's capabilities allow for the development of automated systems that handle core operations such as adding, retrieving, updating, and deleting product information. By automating these CRUD (Create, Retrieve, Update, and Delete) operations, businesses can improve data accuracy, streamline workflows, and boost overall efficiency.
