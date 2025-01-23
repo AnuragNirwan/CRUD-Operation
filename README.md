@@ -70,11 +70,73 @@ To address this problem, you have been hired as a software developer for a Softw
 
 
 ### TASK
-Q1: Your first task is to set up the environment for this project by loading the required packages and modules. <br>
+**Q1: Your first task is to set up the environment for this project by loading the required packages and modules.** <br>
 You will achieve all of this by completing the following sub-task: <br>
 
-Write code to import the following packages: <br>
-For handling raw data files: os <br>
-For working with JSON files: json <br>
-For working with CSV files: csv <br>
-For pretty-printing Python data structures: pprint <br>
+1. Write code to import the following packages: <br>
+- For handling raw data files: os <br>
+- For working with JSON files: json <br>
+- For working with CSV files: csv <br>
+- For pretty-printing Python data structures: pprint <br>
+
+**Q2: Then, you will ensure that the necessary files are loaded into the working environment. This includes loading sales data from a CSV file, product details from JSON files, and product descriptions from text files.** <br> 
+
+We recommend that you either use Jupyter Notebook or Google Colab to build and execute your code. You will achieve all of this by completing the following tasks: <br>
+1. In case you are using Google Colab, <br>
+- import drive from google.colab and mount your Google Drive or <br>
+- import files from google.colab. <br>
+
+2. In case you are using Jupyter Notebook, please make sure that your files and folders are all in the right place. <br>
+
+3. Use a function named load_data() to read data from the sales_data.csv file, JSON files in the product_details folder, and TXT files in the product_description folder and store them in three dictionaries called sales_data, product_details and product_desctiptions. <br>
+
+**Q3: Next, you will explore the loaded data by displaying its content. This includes displaying sales data, product details, and product description of products using their product SKU.** <br>
+
+You will perform the following in this task: <br>
+
+1. Display sales_data, product_details, and product_descriptions dictionaries. <br>
+2. Create a list named product_skus which contains product SKUs extracted from one of the dictionaries using dict.keys(). <br>
+3. Display sales data, product details, and product description of a product using the product_skus list. <br>
+4.Find the length of sales_data, product_details, and product_descriptions dictionaries. <br>
+
+**Q4: A new laptop model, the Acer Aspire 3, laptop has been launched by Acer.  Your task is to create a function that lets the admin add sales data, product details, and product description for this new product.** <br>
+
+The code should help the admin to accomplish the following tasks:<br>
+
+1. Use a function named add_sales_data() to add sales data for Acer Aspire 3, which has the following sales data:<br>
+- Product SKU: TYS56KFJW93NJ
+- Sales data for the past 14 days:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+2. Use a function named add_product_details() to add new product details for Acer Aspire 3, which has the following product details: <br>
+- Product name: Laptop <br>
+- Brand: Acer <br>
+- Model: Acer Aspire 3 <br>
+- Specifications: Intel Core i3 N305 Laptop (Windows 11 Home/8 GB/512 GB SSD) A314-36M, 35.56 cm (14") Full HD Display, 1.4 KG, Pure Silver <br>
+- Price: INR 32,999.00 <br>
+- Availability: In stock <br>
+
+3. Use a function named add_product_description() to add a product description for Acer Aspire 3, which has the following product description: <br>
+- Product Description: The Aspire 3 is ready to go with the latest Intel® Core™ i3 N-Series Processors1 with UHD Graphics—ideal for the entire family, with performance and productivity at the core. Perfect to get more out of work, study, or play. <br>
+
+4. Use a function named create() that calls the functions defined in 1, 2, and 3 to add product details, sales data, and product descriptions for the Acer Aspire 3 laptop at once.
+
+**Q5: Let’s say the admin wants to review the details of the Acer Aspire 3 laptop before making any updates. In this case, you'll create functions to allow the admin to display the sales data, product details, and product description of the Acer Aspire 3 laptop.** <br>
+
+The code should help the admin to accomplish the following tasks:<br>
+1. Use a function named display_sales_data() to display sales data for Acer Aspire 3.<br>
+2. Use a function named display_product_details() to display product details for Acer Aspire 3. <br>
+3. Use a function named display_product_descriptions() to display product description for Acer Aspire 3. <br>
+4. Use a function named read() that calls the functions defined in 1, 2, and 3 to display sales data, product details, and product descriptions for Acer Aspire 3 at once. <br>
+
+**Q6: Acer decides to release a software update for the Acer Aspire 3 laptop, which includes performance enhancements, new features and price increases. In this task, you will implement functionality to let the admin update sales data, product details, and product description.** <br> 
+
+The code should help the admin to accomplish the following tasks:<br>
+1. Use a function named update_sales_data() to update sales data for Acer Aspire 3 <br>
+2. Use a function named update_product_details() to update product details for Acer Aspire 3. <br>
+3. Use a function named update_product_descriptions() to update the product description for Acer Aspire 3. <br>
+4. Use a function named update() that calls the functions defined in 1, 2, and 3 to update sales data, product details, and product descriptions for Acer Aspire 3 at once. <br>
+
+**Q7: Suppose Acer discontinues the production of the Acer Aspire 3 laptop due to the release of its successor, the Acer Aspire 4.  The admin wants to remove all information related to the Acer Aspire 3. In this task, you will implement functionality to let the admin delete sales data, product details, and product description.** <br>
+
+The code should help the admin to accomplish the following task:<br>
+1.Use a function named delete() to delete sales data, product details, and product descriptions for Acer Aspire 3 whose product SKU is TYS56KFJW93NJ at once.
